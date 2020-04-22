@@ -8,6 +8,8 @@ public class OrderRepository extends GenericRepo<Order>
     public OrderRepository()
     {
         super();
+        m_dataFile = "./Data/Order.txt";
+        Loadontent();
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public Order GetOrderById( int id )

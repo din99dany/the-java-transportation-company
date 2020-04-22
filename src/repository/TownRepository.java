@@ -7,11 +7,8 @@ public class TownRepository extends  GenericRepo<Town>
     public TownRepository()
     {
         super();
-        AddObject( new Town( "Bucuresti", 45, 60 ) );
-        AddObject( new Town( "Londa", 30, 0  ) );
-        AddObject( new Town( "Craiova", 45, 33 ) );
-        AddObject( new Town( "Dragasani", 45, 22 ) );
-        AddObject( new Town( "Reactivi Cernaturi", 45, 11 ) );
+        m_dataFile = "./Data/Town.txt";
+        Loadontent();
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public Town GetTownById(int id )

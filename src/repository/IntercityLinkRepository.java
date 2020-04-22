@@ -7,6 +7,8 @@ public class IntercityLinkRepository extends GenericRepo<IntercityLink>
     public IntercityLinkRepository()
     {
         super();
+        m_dataFile = "./Data/InterCity.txt";
+        Loadontent();
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public IntercityLink GetLinkById(int id )

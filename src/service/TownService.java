@@ -17,28 +17,38 @@ public class TownService
         return m_instance;
     }
 
+    public void Write(){
+        Logger.Log();
+        m_repo.WriteContent();
+    }
+
     public Town GetTownById(int id )
     {
+        Logger.Log();
         return m_repo.GetTownById( id );
     }
 
     public void AddTown( Town toAdd )
     {
+        Logger.Log();
         m_repo.AddObject( toAdd );
     }
 
     public void RemoveTown( Town toRem )
     {
+        Logger.Log();
         m_repo.RemoveObject( toRem );
     }
 
     public List<Town> GetTowns()
     {
+        Logger.Log();
         return m_repo.GetData();
     }
 
     private TownService()
     {
+        Logger.Log();
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

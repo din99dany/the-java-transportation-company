@@ -16,6 +16,10 @@ public class VehicleService
         return m_instance;
     }
 
+    public void Write(){
+        m_repo.WriteContent();
+    }
+
     public Vehicle GetCarById(int id )
     {
         return m_repo.GetVehicleById( id );

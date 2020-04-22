@@ -11,6 +11,7 @@ public class IntercityLinkService
 
     public static IntercityLinkService GetInstance()
     {
+        Logger.Log();
         if ( m_instance == null )
         {
             m_instance = new IntercityLinkService();
@@ -28,24 +29,32 @@ public class IntercityLinkService
         AddLink( new IntercityLink( source, dest ) );
         return true;
     }
+    public void Write(){
+        m_repo.WriteContent();
+    }
+
 
     public IntercityLink GetLinkById( int id )
     {
+        Logger.Log();
         return m_repo.GetLinkById( id );
     }
 
     public void AddLink( IntercityLink toAdd )
     {
+        Logger.Log();
         m_repo.AddObject( toAdd );
     }
 
     public void RemoveLink( IntercityLink toRem )
     {
+        Logger.Log();
         m_repo.RemoveObject( toRem );
     }
 
     public List<IntercityLink> GetLinks()
     {
+        Logger.Log();
         return m_repo.GetData();
     }
 

@@ -19,6 +19,10 @@ public class OrderService {
         return m_instance;
     }
 
+    public void Write(){
+        m_repo.WriteContent();
+    }
+
 
     public boolean CreateOrder(Cargo toShip, Town source, Town dest )
     {

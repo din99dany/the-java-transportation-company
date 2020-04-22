@@ -1,6 +1,9 @@
 package model;
 
-public class Town
+import java.beans.Transient;
+import java.io.Serializable;
+
+public class Town implements Serializable
 {
     public Town( String name, double latitude, double longitude )
     {

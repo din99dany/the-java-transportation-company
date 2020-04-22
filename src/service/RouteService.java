@@ -28,8 +28,13 @@ public class RouteService {
         return true;
     }
 
+    public void Write(){
+        m_repo.WriteContent();
+    }
+
     public Route GetOrderRoute( Order toShip )
     {
+        Logger.Log();
         List<Route> routes = GetRoutes();
         for ( Route route : routes )
         {

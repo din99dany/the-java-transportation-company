@@ -1,7 +1,8 @@
 package model;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Route
+public class Route implements Serializable
 {
     public Route( Vehicle vehicle )
     {

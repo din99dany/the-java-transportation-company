@@ -1,6 +1,8 @@
 package model;
 
-public class Cargo
+import java.io.Serializable;
+
+public class Cargo implements Serializable
 {
 
     public Cargo( double weight )

@@ -1,6 +1,8 @@
 package model;
 
-public abstract class Vehicle
+import java.io.Serializable;
+
+public abstract class Vehicle implements Serializable
 {
     public Vehicle( double weight, double fuelReserve )
     {

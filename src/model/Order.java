@@ -1,6 +1,8 @@
 package model;
 
-public class Order
+import java.io.Serializable;
+
+public class Order implements Serializable
 {
     public Order( Cargo cargo, Town sourceTown, Town destTown )
     {

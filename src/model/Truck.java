@@ -1,6 +1,8 @@
 package model;
 
-public class Truck extends Vehicle
+import java.io.Serializable;
+
+public class Truck extends Vehicle implements Serializable
 {
     public Truck( double weight, double fuelReserve )
     {

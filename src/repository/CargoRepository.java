@@ -8,11 +8,8 @@ public class CargoRepository extends GenericRepo<Cargo>
     public CargoRepository()
     {
         super();
-        AddObject( new Cargo( 12 ) );
-        AddObject( new Cargo( 13 ) );
-        AddObject( new Cargo( 14 ) );
-        AddObject( new Cargo( 15 ) );
-        AddObject( new Cargo( 16 ) );
+        m_dataFile = "./Data/Cargo.txt";
+        Loadontent();
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public Cargo GetCargoById( int id )

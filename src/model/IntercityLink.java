@@ -1,6 +1,8 @@
 package model;
 
-public class IntercityLink
+import java.io.Serializable;
+
+public class IntercityLink implements Serializable
 {
     public  IntercityLink( Town sourceTown, Town destTown )
     {

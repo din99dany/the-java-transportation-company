@@ -9,12 +9,8 @@ public class VehicleRepository extends GenericRepo<Vehicle>
     public VehicleRepository()
     {
         super();
-        AddObject( new Car( 11, 11 ) );
-        AddObject( new Car( 22, 22 ) );
-        AddObject( new Truck( 33, 33 ) );
-        AddObject( new Truck( 44, 44 ) );
-        AddObject( new Van( 55, 55 ) );
-        AddObject( new Van( 66, 66 ) );
+        m_dataFile = "./Data/Vehicle.txt";
+        Loadontent();
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public Vehicle GetVehicleById( int id )

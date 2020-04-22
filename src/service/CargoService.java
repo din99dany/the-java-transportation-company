@@ -25,16 +25,24 @@ public class CargoService
     public void AddCargo( Cargo toAdd )
     {
         m_repo.AddObject( toAdd );
+        Logger.Log();
     }
 
     public void RemoveCargo( Cargo toRem )
     {
+        Logger.Log();
         m_repo.RemoveObject( toRem );
     }
 
     public List<Cargo> GetCargos()
     {
         return m_repo.GetData();
+    }
+
+    public void Write()
+    {
+        Logger.Log();
+        m_repo.WriteContent();
     }
 
     private CargoService()
