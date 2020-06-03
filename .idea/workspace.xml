@@ -7,11 +7,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ZuED73gbPAQkZ7jh92xW07fyXj" />
@@ -20,10 +31,26 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/sqlite-jdbc-3.21.0.1.jar!/" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28045976" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="service" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn deploy" />
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -56,33 +83,68 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1585773466570">
+    <state x="729" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1591134670499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="729" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585773466570" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585774945039">
+    <state x="729" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591134670499" />
+    <state x="683" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591119946803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585774945039" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585774945039">
+    <state x="683" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591119946803" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591117587283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585774945039" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585774945039">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591117587283" />
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1591123373751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585774945039" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585774945039">
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591123373751" />
+    <state width="1877" height="84" key="GridCell.Tab.0.bottom" timestamp="1591199217087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585774945039" />
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585843472229">
+    <state width="1877" height="84" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591199217087" />
+    <state width="1877" height="84" key="GridCell.Tab.0.center" timestamp="1591199217087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585843472229" />
+    <state width="1877" height="84" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591199217087" />
+    <state width="1877" height="84" key="GridCell.Tab.0.left" timestamp="1591199217087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="84" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591199217087" />
+    <state width="1877" height="84" key="GridCell.Tab.0.right" timestamp="1591199217087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="84" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591199217087" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1591123512206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591123512206" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1591129935769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591129935769" />
+    <state width="583" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1591132059248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="583" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1040@0.0.1920.1040" timestamp="1591132059248" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591184416263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591184416263" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1591196513822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591196513822" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1591135580167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591135580167" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585774694064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585774694064" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/transport$Main.ic" NAME="Main Coverage Results" MODIFIED="1591135173173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
